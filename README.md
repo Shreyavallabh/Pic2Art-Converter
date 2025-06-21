@@ -1,54 +1,47 @@
 🎨 Pic2Art Converter
-Convert your favorite images into stunning cartoon art using OpenCV and Python! This beginner-friendly project brings your pictures to life with artistic transformations.
+Turn your images into cartoon-style artwork using Python and OpenCV — fast, fun, and beginner-friendly!
 
 ✨ Features
-🖼️ Image to Cartoon Conversion
+🖼️ Converts images into cartoon-style art
 
-✏️ Sketch Filter Output
+✏️ Also creates a pencil sketch version
 
-💻 Simple Python Code using OpenCV
+🧾 Combines original, sketch, and cartoon into a single output
 
-🧰 Beginner-Friendly with Clear Steps
+💡 Clean and simple code for beginners
 
-📁 All outputs saved on a single sheet
+📂 Saves results automatically in output folder
 
-🔧 Requirements
-Make sure you have the following installed:
+🛠️ Technologies Used
+🐍 Python 3
 
-Python 3.x
+📷 OpenCV (cv2)
 
-OpenCV (cv2)
+🔢 NumPy
 
-NumPy
+💻 VS Code for development
 
-Install dependencies:
+🚀 How to Run
+Clone the Repository
+git clone https://github.com/yourusername/pic2art-converter.git
+
+Navigate to the Project Folder
+cd pic2art-converter
+
+Install Dependencies
 
 nginx
 Copy
 Edit
 pip install opencv-python numpy
-🚀 How to Run
-Clone the repository:
-git clone https://github.com/yourusername/pic2art-converter.git
+Run the Script
 
-Navigate to the project folder:
-cd pic2art-converter
-
-Run the script:
-python cartoonify.py
-
-Choose your image and get the cartoon, sketch, and original in one output window!
-
-📂 Folder Structure
+nginx
 Copy
 Edit
-Pic2Art-Converter/
-├── cartoonify.py
-├── sample_images/
-├── outputs/
-└── README.md
-🖼️ Sample Output
-Original Image	Sketch	Cartoon
+python cartoonify.py
+Choose Your Image
+A file dialog will appear — select your image and enjoy the cartoon transformation!
 
 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
