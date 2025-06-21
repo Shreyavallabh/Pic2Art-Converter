@@ -1,4 +1,5 @@
-🎨 Pic2Art Converter
+🎨 PIC2ART CONVERTER
+==========================
 
 Turn your images into cartoon-style artwork using Python and OpenCV — fast, fun, and beginner-friendly!
 
